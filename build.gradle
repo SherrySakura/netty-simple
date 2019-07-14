@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.asuna.netty'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.32.Final'
+
+
+}
